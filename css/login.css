@@ -1,0 +1,53 @@
+.login {
+    width: fit-content;
+    height: fit-content;
+    margin: 100px auto;
+    border: 2px solid black;
+    padding: 100px 20px 100px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+body {
+    font-family: 'my font';
+}
+
+.email {
+    margin: 5px 50px 5px 50px;
+}
+
+.password {
+    margin: 5px 50px 5px 50px;
+}
+
+.but {
+    margin: 20px 90px 0px 90px;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+
+@font-face{
+    font-family: 'my font';
+    src: url('../statik/font/arial.ttf');
+}
+
+.login:hover {
+    scale: 1.04;
+}
+
+.but:hover {
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 800px) {
+    .login {
+        padding: 90px 5px 90px 5px;
+    }
+}
