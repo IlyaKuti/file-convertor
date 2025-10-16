@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'my font';
+    src: url('../statik/font/arial.ttf');
+}
+body {
+    font-family: 'my font';
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 100px 0px;
+}
+
+.premium-option {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.templite-one {
+    border : 2px solid black;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin: 0px 20% 0px 20%;
+    transition: 0.4s;
+}
+
+.templite-two {
+    border : 2px solid black;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.templite-one:hover {
+    scale: 1.04;
+}
+.templite-two:hover {
+    scale: 1.04;
+}
+
+@media (max-width: 800px) {
+    .premium-option {
+        flex-direction: column;
+    }
+
+    .templite-one {
+        margin: auto;
+    }
+
+    .templite-two {
+        margin: 30px auto;
+    }
+}
