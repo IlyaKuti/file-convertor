@@ -44,6 +44,10 @@ a {
     transition: 0.4s;
 }
 
+.site-name {
+    margin: 0px 0px 0px 250px;
+}
+
 a:hover {
     color: white;
     background-color: rgb(84, 84, 248);
@@ -309,9 +313,4 @@ h4 {
     .mobile-menu-button {
         display: block;
     }
-    
-    /* Remove these conflicting lines from your media query */
-    /* .mobile-menu-button-close { display: block; } */
-    /* .mobile-menu-open { display: block; } */
-    /* .mobile-menu { display: flex; } */
 }
